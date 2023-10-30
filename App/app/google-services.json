@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "582278080303",
+    "firebase_url": "https://hai811i-projetdevmobile-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "hai811i-projetdevmobile",
+    "storage_bucket": "hai811i-projetdevmobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582278080303:android:b38db61c376811cfbfe3da",
+        "android_client_info": {
+          "package_name": "com.example.projet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "582278080303-sns6k746scrug1q9l0cch6pnvrabsk9c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh9xftX3znS28F0BkN-qXlCG1Po-BCQL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "582278080303-sns6k746scrug1q9l0cch6pnvrabsk9c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

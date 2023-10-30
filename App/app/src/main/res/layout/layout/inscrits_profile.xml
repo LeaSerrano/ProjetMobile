@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f0f0f0"
+    android:padding="16dp">
+
+    <!-- Application name -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nom de l'Application"
+        android:textSize="19sp"
+        android:textColor="#333333"
+        android:textStyle="bold"
+        android:gravity="left"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+
+    <!-- Button 1 -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Inscrits_receive_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recevoir des notifications d'offres"
+        android:textSize="12sp"
+        android:textColor="#333333"
+        android:background="@drawable/rounded_grey"
+        android:layout_marginTop="16dp"
+        android:textAllCaps="false"/>
+
+    <!-- Button 2 -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Inscrits_mes_candidatures_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mes Candidatures"
+        android:textSize="12sp"
+        android:textColor="#333333"
+        android:background="@drawable/rounded_grey"
+        android:layout_marginTop="16dp"
+        android:textAllCaps="false"/>
+
+    <!-- Button 3 -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Inscrits_mes_emplois_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mes emplois"
+        android:textSize="12sp"
+        android:textColor="#333333"
+        android:background="@drawable/rounded_grey"
+        android:layout_marginTop="16dp"
+        android:textAllCaps="false"/>
+
+    <!-- Button 4 -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Inscrits_aide_candidature_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aide a la candidature"
+        android:textSize="12sp"
+        android:textColor="#333333"
+        android:background="@drawable/rounded_grey"
+        android:layout_marginTop="16dp"
+        android:textAllCaps="false" />
+
+    <!-- Fragment container -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

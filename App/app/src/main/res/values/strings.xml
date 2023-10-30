@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Projet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_registered_home">Registered_Home</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="title_activity_employment_agency_home">EmploymentAgency_Home</string>
+</resources>

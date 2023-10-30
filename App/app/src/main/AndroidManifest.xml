@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/lightTheme"
+        tools:targetApi="31">
+        <activity
+            android:name=".Inscrit_Offres_Details"
+            android:exported="false" /> <!-- Add AddOfferActivity here -->
+        <activity android:name=".AgenceI_Main" />
+        <activity android:name=".Inscrit_Main" />
+        <activity
+            android:name=".Inscrit_recevoirOffres"
+            android:label="Receive Notifications Offers " />
+        <activity
+            android:name=".Inscrit_Filtre_Activity"
+            android:label="Filter Window Inscrits " />
+        <activity
+            android:name=".OfferDetailsActivity"
+            android:label="Offer Details" />
+        <activity
+            android:name=".ApplicationFormActivity"
+            android:label="Receive Notifications Offers " />
+        <activity
+            android:name=".Employeur_Home_Fragment"
+            android:label="Receive Notifications Offers " />
+        <activity android:name=".Inscrit_Tchat_Home" />
+        <activity
+            android:name=".Employeur_Main"
+            android:label="Receive Notifications Offers " />
+        <activity
+            android:name=".ResetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".AgenceI_Home"
+            android:exported="false"
+            android:label="@string/title_activity_employment_agency_home"
+            android:theme="@style/lightTheme.NoActionBar" />
+        <activity
+            android:name=".BlankPage"
+            android:exported="false"
+            android:label="@string/title_activity_registered_home"
+            android:theme="@style/lightTheme.NoActionBar" />
+        <activity
+            android:name=".VerifyAccount"
+            android:exported="false" />
+        <activity
+            android:name=".CreateAccount"
+            android:exported="false" />
+        <activity
+            android:name=".Employeur_Home"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
