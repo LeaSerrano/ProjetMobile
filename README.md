@@ -22,6 +22,6 @@ In our application, we have added the possibility of registering (with several t
 <img src="https://github.com/LeaSerrano/ProjetMobile/assets/113998552/7d96cf32-ab1b-4b17-a11a-9bd914424296" width="325" height="625">
 
 
-Voici le lien de la vidéo de démonstration du projet : https://drive.google.com/file/d/1F9sFydXV-Gfj9XtR5Oz8ECG7U8AubzWd/view?usp=sharing
+Voici le lien de la vidéo de démonstration du projet : https://drive.google.com/file/d/1IFG26bQnvSFcSFX8l9XOBP10h-o4RfFJ/view?usp=sharing
 
 Lien du dépôt git original : https://gitlab.com/LeaSerr/hai811i-devmobile-projet
