@@ -23,5 +23,6 @@ In our application, we have added the possibility of registering (with several t
 
 
 Voici le lien de la vidéo de démonstration du projet : https://drive.google.com/file/d/1IFG26bQnvSFcSFX8l9XOBP10h-o4RfFJ/view?usp=sharing
+Et voici le lien du fichier Figma contenant la maquette du projet : https://www.figma.com/design/UsMdJGTG9hI43VGNIZbkDA/HAI811I---Design-application?node-id=59-6574&node-type=frame&t=NtLy8xGesj9gkbhi-0
 
 Lien du dépôt git original : https://gitlab.com/LeaSerr/hai811i-devmobile-projet
